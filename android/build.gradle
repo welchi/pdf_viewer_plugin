@@ -16,6 +16,8 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
+        mavenCentral()
+		maven { url 'https://jitpack.io' }
     }
 }
 
@@ -35,7 +37,7 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation('com.github.barteksc:android-pdf-viewer:3.0.0-beta.4') {
+    implementation ('com.github.DImuthuUpe:AndroidPdfViewer:3.1.0-beta.1') {
         force = true
     }
 }
